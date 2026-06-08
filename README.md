@@ -123,38 +123,7 @@ set -g @tmux-gruvbox-statusbar-alpha 'true'
 set -g @tmux-gruvbox-left-status-a '#S' # tmux's session name
 ```
 
-### Right Status (Section X)
-
-- default value: `'%Y-%m-%d'`
-
-This section is customizable for user, and by default contains current date.
-
-```bash
-# set date in US notation
-set -g @tmux-gruvbox-right-status-x '%m/%d/%Y' # e.g.: 01/31/2024
-```
-
-```bash
-# or set date in EU notation
-set -g @tmux-gruvbox-right-status-x '%d.%m.%Y' # e.g.: 30.01.2024
-```
-
-> [!TIP]
-> Some user may have problem with displaying dates in desired format, if this
-> case for you try using double percent `%%`
-
-### Right Status (Section Y)
-
-- default value: `'%H:%M'`
-
-This section is customizable for user, and by default contains current time.
-
-```bash
-# set US time format
-set -g @tmux-gruvbox-right-status-y '%I:%M %p' # 09:54 PM
-```
-
-### Right Status (Section Z)
+### Right Status
 
 - default value: `'#h'` (hostname)
 

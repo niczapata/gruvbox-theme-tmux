@@ -5,12 +5,10 @@
 #
 # shellcheck disable=SC2154
 theme_set_dark() {
-  local _left_status_a _right_status_x _right_status_y _right_status_z _statusbar_alpha
+  local _left_status_a _right_status_z _statusbar_alpha
   _left_status_a=$1
-  _right_status_x=$2
-  _right_status_y=$3
-  _right_status_z=$4
-  _statusbar_alpha=$5
+  _right_status_z=$2
+  _statusbar_alpha=$3
 
   tmux_append_seto "status" "on"
 
@@ -65,7 +63,7 @@ theme_set_dark() {
   # right status
   local _status_right_bg=${col_bg1}
   if [[ "$_statusbar_alpha" == "true" ]]; then _status_right_bg="default"; fi
-  tmux_append_seto "status-right" "#[bg=${_status_right_bg},fg=${col_bg2},nobold,nounderscore,noitalics]#[bg=${col_bg2},fg=${col_fg4}] ${_right_status_x}  ${_right_status_y} #[bg=${col_bg2},fg=${col_fg3},nobold,noitalics,nounderscore]#[bg=${col_fg3},fg=${col_bg1}] ${_right_status_z}"
+  tmux_append_seto "status-right" "#[bg=${_status_right_bg},fg=${col_fg3},nobold,nounderscore,noitalics]#[bg=${col_fg3},fg=${col_bg1}] ${_right_status_z}"
 
   # current window
   local _current_window_status_format_bg=${col_bg1}
