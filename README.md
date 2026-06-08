@@ -3,6 +3,8 @@
     <h1>Gruvbox theme for Tmux</h1>
 </div>
 
+> **Disclaimer:** This is a custom fork tailored to my personal needs. For the original project, please visit [egel/tmux-gruvbox](https://github.com/egel/tmux-gruvbox).
+
 Theme with 'retro groove' flavor for [Tmux][github-tmux], based on Pavel Pertsev's [gruvbox colorscheme][github-grovbox] and inspired by work of [Gordon Chiam](https://gist.github.com/gchiam/4606522f513cc64b79ce). Subthemes switching inspired by [tmux-color-solarized][github-seebi-tmux-color-solarized].
 
 <!--
