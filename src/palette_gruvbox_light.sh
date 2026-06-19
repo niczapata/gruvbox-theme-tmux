@@ -1,46 +1,43 @@
 #!/bin/bash
 
 ##########################
-# gruvbox light pallete
+# ayu-light palette (NvChad)
 ##########################
 
 ####
-# When using 'colour124' you are using the color default in terminal pallete.
-# This could be important for people which terminals support only 256 colors
-# and does not support HEX values.
-#
-# The names of colors used from https://github.com/morhetz/gruvbox
+# Colors from NvChad base46 ayu_light theme
+# https://github.com/NvChad/base46
 
 # shellcheck disable=2034 # ignored as this file only contains var definitions
-col_bg="#fbf1c7"
-col_bg0_h="#f9f5d7"
-col_bg0="#fbf1c7"
-col_bg1="#ebdbb2"
-col_bg2="#d5c4a1"
-col_bg3="#bdae93"
-col_bg4="#a89984"
-col_gray0="#7c6f64"
-col_gray1="#928374"
-col_gray2="#928374"
-col_bg0_s="#f2e5bc"
-col_fg="#3c3836"
-col_fg4="#7c6f64"
-col_fg3="#665c54"
-col_fg2="#504945"
-col_fg1="#3c3836"
-col_fg0="#282828"
+col_bg="#fafafa"
+col_bg0_h="#fafafa"
+col_bg0="#fafafa"
+col_bg1="#f0f0f0"
+col_bg2="#ebebeb"
+col_bg3="#e1e1e1"
+col_bg4="#d7d7d7"
+col_gray0="#a0a0a0"
+col_gray1="#acacac"
+col_gray2="#acacac"
+col_bg0_s="#f3f3f3"
+col_fg="#5C6166"
+col_fg4="#a0a0a0"
+col_fg3="#7E8183"
+col_fg2="#6D7175"
+col_fg1="#5C6166"
+col_fg0="#484d52"
 
-col_red="#cc241d"
-col_red2="#9d0006"
-col_green="#98971a"
-col_green2="#79740e"
-col_yellow="#d79921"
-col_yellow2="#b57614"
-col_blue="#458588"
-col_blue2="#076678"
-col_purple="#b16286"
-col_purple2="#8f3f71"
-col_aqua="#689d6a"
-col_aqua2="#427b58"
-col_orange="#d65d0e"
-col_orange2="#af3a03"
+col_red="#E65050"
+col_red2="#F07171"
+col_green="#6CBF43"
+col_green2="#86B300"
+col_yellow="#E6BA7E"
+col_yellow2="#F2AE49"
+col_blue="#399EE6"
+col_blue2="#55B4D4"
+col_purple="#9F40FF"
+col_purple2="#A37ACC"
+col_aqua="#4CBF99"
+col_aqua2="#74c5aa"
+col_orange="#FA8D3E"
+col_orange2="#E6BA7E"
