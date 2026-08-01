@@ -1,11 +1,11 @@
 <div align="center">
-    <img src="https://i.imgur.com/Ukyf4Iu.png" width="200px" referrerpolicy="no-referrer">
-    <h1>Gruvbox theme for Tmux</h1>
+    <img src="./public/presentation.png" width="100%" style="max-width: 800px; border-radius: 12px; overflow:hidden;">
+    <h1>Ayu theme for Tmux</h1>
 </div>
 
-> **Disclaimer:** This is a custom fork tailored to my personal needs. For the original project, please visit [egel/tmux-gruvbox](https://github.com/egel/tmux-gruvbox).
+> **Disclaimer:** This is an **Ayu** theme for Tmux, a custom fork built on top of the original [egel/tmux-gruvbox][github-tmux-gruvbox] project, tailored to my personal needs. All credit for the original theme structure and plugin architecture goes to that project — huge thanks to its authors. For the original Gruvbox-flavored project, please visit [egel/tmux-gruvbox][github-tmux-gruvbox].
 
-Theme with 'retro groove' flavor for [Tmux][github-tmux], based on Pavel Pertsev's [gruvbox colorscheme][github-grovbox] and inspired by work of [Gordon Chiam](https://gist.github.com/gchiam/4606522f513cc64b79ce). Subthemes switching inspired by [tmux-color-solarized][github-seebi-tmux-color-solarized].
+Theme with the [Ayu colorscheme][github-ayu] flavor for [Tmux][github-tmux], forked from and based on Pavel Pertsev's [gruvbox colorscheme][github-grovbox] plugin structure ([egel/tmux-gruvbox][github-tmux-gruvbox]) and inspired by work of [Gordon Chiam](https://gist.github.com/gchiam/4606522f513cc64b79ce). Subthemes switching inspired by [tmux-color-solarized][github-seebi-tmux-color-solarized].
 
 <!--
   Using HTML table instead default markdown tables as provide it provide
@@ -185,8 +185,10 @@ GPLv3 - Maciej Sypień
 
 [docs-migration-guide-from-v1-to-v2]: ./docs/migration-guide-from-v1-to-v2.md
 [github-alacritty]: https://github.com/alacritty/alacritty
+[github-ayu]: https://github.com/ayu-theme/ayu-colors
 [github-gist-andersevenrud-alacritty-tmux-vim-truecolor]: https://gist.github.com/andersevenrud/015e61af2fd264371032763d4ed965b6
 [github-grovbox]: https://github.com/morhetz/gruvbox
+[github-tmux-gruvbox]: https://github.com/egel/tmux-gruvbox
 [github-hack]: https://github.com/chrissimpkins/Hack
 [github-nerd-fonts]: https://github.com/ryanoasis/nerd-fonts
 [github-seebi-tmux-color-solarized]: https://github.com/seebi/tmux-colors-solarized
