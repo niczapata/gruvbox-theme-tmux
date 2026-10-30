@@ -75,16 +75,6 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 
 ## Configuration options
 
-<div align="center">
-  <a href="https://i.imgur.com/tO5Y1NN.png" target="_blank" title="Grovbox dark and light themes configuration sections">
-    <img src="https://i.imgur.com/x4tkeU7.png"
-         title="Grovbox dark and light themes configuration sections"
-         width="100%"
-         height="auto"
-         style="max-width: 800px; text-align: center; border-radius: 12px; overflow:hidden;"
-         referrerpolicy="no-referrer" />
-  </a>
-</div>
 
 ### Theme
 
