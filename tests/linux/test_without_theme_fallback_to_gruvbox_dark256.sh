@@ -35,7 +35,7 @@ EOF
   tmux new -d
 
   # check if left side match
-  _status_left_expected="#[bg=colour239,fg=colour145] #S #[bg=colour236,fg=colour239,nobold,noitalics,nounderscore]"
+  _status_left_expected="#[bg=colour236,fg=colour239,nobold,noitalics,nounderscore]#[bg=colour239,fg=colour145] #S #[bg=colour236,fg=colour239,nobold,noitalics,nounderscore]"
   _status_left_current=$(helper_tmux_get_statusleft)
   if [[ "$_status_left_current" != "$_status_left_expected" ]]; then
     helper_print_fail "status-left did not match" "$_status_left_current" "$_status_left_expected"

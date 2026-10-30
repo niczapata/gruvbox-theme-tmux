@@ -58,12 +58,13 @@ theme_set_light256() {
   tmux_append_seto "status-right-length" "80"
   tmux_append_setwo "window-status-separator" ""
 
-  tmux_append_seto "status-left" "#[bg=${col_fg2},fg=${col_bg1}] ${_left_status_a} #[bg=${col_bg2},fg=${col_fg2},nobold,noitalics,nounderscore]"
-
-  # right status
   local _status_right_bg=${col_bg2}
   if [[ "$_statusbar_alpha" == "true" ]]; then _status_right_bg="default"; fi
-  tmux_append_seto "status-right" "#[bg=${_status_right_bg},fg=${col_green2},nobold,nounderscore,noitalics]#[bg=${col_green2},fg=${col_bg1}] ${_right_status_z}"
+
+  tmux_append_seto "status-left" "#[bg=${_status_right_bg},fg=${col_fg2},nobold,noitalics,nounderscore]#[bg=${col_fg2},fg=${col_bg1}] ${_left_status_a} #[bg=${col_bg2},fg=${col_fg2},nobold,noitalics,nounderscore]"
+
+  # right status
+  tmux_append_seto "status-right" "#[bg=${_status_right_bg},fg=${col_green2},nobold,nounderscore,noitalics]#[bg=${col_green2},fg=${col_bg1}] ${_right_status_z} #[bg=${_status_right_bg},fg=${col_green2},nobold,nounderscore,noitalics]"
 
   # current window
   local _current_window_status_format_bg=${col_bg2}
