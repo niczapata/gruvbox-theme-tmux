@@ -75,7 +75,6 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 
 ## Configuration options
 
-
 ### Theme
 
 - default value: `mirage256`
