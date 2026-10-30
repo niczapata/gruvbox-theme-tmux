@@ -40,7 +40,7 @@ set -g @plugin 'tmux-plugins/tmux-sensible' # optional recommended
 
 set -g @plugin 'egel/tmux-gruvbox'
 # set desired theme options...
-set -g @tmux-gruvbox 'dark' # or 'dark256', 'light', 'light256'
+set -g @tmux-gruvbox 'mirage' # or 'mirage256', 'light', 'light256'
 
 # other plugins
 ...
@@ -70,7 +70,7 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 
     run ~/projects/tmux-gruvbox/tmux-gruvbox.tmux
     # set desired options...
-    set -g @tmux-gruvbox 'dark' # or 'dark256', 'light', 'light256'
+    set -g @tmux-gruvbox 'mirage' # or 'mirage256', 'light', 'light256'
     ```
 
 ## Configuration options
@@ -88,17 +88,19 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 
 ### Theme
 
-- default value: `dark256`
+- default value: `mirage256`
 
 | Theme name | Color palette | Preview link                                                          |
 | :--------- | :------------ | :-------------------------------------------------------------------- |
-| `dark`     | 16-bit colors | <a href="https://i.imgur.com/ae88LQI.png" target="_blank">preview</a> |
+| `mirage`   | 16-bit colors | <a href="https://i.imgur.com/ae88LQI.png" target="_blank">preview</a> |
 | `light`    | 16-bit colors | <a href="https://i.imgur.com/fvpdRjg.png" target="_blank">preview</a> |
-| `dark256`  | 256 colors    | <a href="https://i.imgur.com/kzQTTCa.png" target="_blank">preview</a> |
+| `mirage256`| 256 colors    | <a href="https://i.imgur.com/kzQTTCa.png" target="_blank">preview</a> |
 | `light256` | 256 colors    | <a href="https://i.imgur.com/tQsl6LA.png" target="_blank">preview</a> |
 
+`light` is the standard Ayu Light. `dark` and `dark256` remain as aliases of `mirage` and `mirage256`.
+
 ```bash
-set -g @tmux-gruvbox 'dark' # dark256, light, light256
+set -g @tmux-gruvbox 'mirage' # mirage256, light, light256
 ```
 
 > [!TIP]
@@ -168,7 +170,7 @@ To run project locally:
     # ~/.tmux.conf
     set -g @plugin 'egel/tmux-gruvbox'
     # set desired options...
-    set -g @tmux-gruvbox 'dark'
+    set -g @tmux-gruvbox 'mirage'
     ```
 
 ### Linters & formatters

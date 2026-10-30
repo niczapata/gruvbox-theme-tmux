@@ -18,7 +18,7 @@ readonly TMUX_GRUVBOX_LEFT_STATUS_A="@tmux-gruvbox-left-status-a"
 readonly TMUX_GRUVBOX_RIGHT_STAUTS_Z="@tmux-gruvbox-right-status-z"
 
 # define simple theme options (no color interpolation required)
-readonly DEFAULT_THEME="dark256"
+readonly DEFAULT_THEME="mirage256"
 readonly DEFAULT_STATUSBAR_ALPHA='false'
 # defaults for theme option (with color interpolation)
 readonly DEFAULT_LEFT_STATUS_A='#S'
@@ -45,13 +45,13 @@ main() {
     # shellcheck disable=1091
     source "${CURRENT_DIR}/theme_gruvbox_light256.sh"
     ;;
-  dark)
+  mirage | dark)
     # shellcheck disable=1091
     source "${CURRENT_DIR}/palette_gruvbox_dark.sh"
     # shellcheck disable=1091
     source "${CURRENT_DIR}/theme_gruvbox_dark.sh"
     ;;
-  dark256 | *)
+  mirage256 | dark256 | *)
     # shellcheck disable=1091
     source "${CURRENT_DIR}/palette_gruvbox_dark256.sh"
     # shellcheck disable=1091
@@ -78,7 +78,7 @@ main() {
   light)
     theme_set_light "${_theme_args[@]}"
     ;;
-  dark | dark256 | *)
+  mirage | mirage256 | dark | dark256 | *)
     theme_set_dark "${_theme_args[@]}"
     ;;
   esac
