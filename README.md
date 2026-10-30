@@ -92,10 +92,17 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 
 | Theme name | Color palette | Preview link                                                          |
 | :--------- | :------------ | :-------------------------------------------------------------------- |
-| `mirage`   | 16-bit colors | <a href="https://i.imgur.com/ae88LQI.png" target="_blank">preview</a> |
-| `light`    | 16-bit colors | <a href="https://i.imgur.com/fvpdRjg.png" target="_blank">preview</a> |
-| `mirage256`| 256 colors    | <a href="https://i.imgur.com/kzQTTCa.png" target="_blank">preview</a> |
-| `light256` | 256 colors    | <a href="https://i.imgur.com/tQsl6LA.png" target="_blank">preview</a> |
+| `mirage`   | 16-bit colors | <a href="./public/preview-mirage.png" target="_blank">preview</a> |
+| `light`    | 16-bit colors | <a href="./public/preview-light.png" target="_blank">preview</a> |
+| `mirage256`| 256 colors    | <a href="./public/preview-mirage256.png" target="_blank">preview</a> |
+| `light256` | 256 colors    | <a href="./public/preview-light256.png" target="_blank">preview</a> |
+
+<div align="center">
+  <img src="./public/preview-mirage.png" alt="mirage theme" width="48%" />
+  <img src="./public/preview-light.png" alt="light theme" width="48%" />
+  <img src="./public/preview-mirage256.png" alt="mirage256 theme" width="48%" />
+  <img src="./public/preview-light256.png" alt="light256 theme" width="48%" />
+</div>
 
 `light` is the standard Ayu Light. `dark` and `dark256` remain as aliases of `mirage` and `mirage256`.
 
