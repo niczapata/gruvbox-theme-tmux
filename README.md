@@ -13,9 +13,9 @@ Theme with the [Ayu colorscheme][github-ayu] flavor for [Tmux][github-tmux], for
 -->
 
 <div align="center">
-  <a href="https://i.imgur.com/uGyGwlC.png" target="_blank" title="Grovbox dark and light themes for Tmux">
-    <img src="https://i.imgur.com/p6lUnzb.png"
-      title="Grovbox dark and light themes for Tmux"
+  <a href="./public/comparison-mirage-light.png" target="_blank" title="Ayu mirage and light themes for Tmux">
+    <img src="./public/comparison-mirage-light.png"
+      title="Ayu mirage and light themes for Tmux"
       width="100%"
       height="auto"
       style="max-width: 800px; text-align: center; border-radius: 12px; overflow:hidden;"
