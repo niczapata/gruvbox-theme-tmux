@@ -14,7 +14,7 @@ set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
 
 # Other plugins
-set -g @plugin 'egel/tmux-gruvbox'
+set -g @plugin 'niczapata/gruvbox-theme-tmux'
 set -g @tmux-gruvbox 'dark'
 set -g @tmux-gruvbox-statusbar-alpha 'true'
 
@@ -25,7 +25,7 @@ EOF
   cat ~/.tmux.conf
 
   # it's essential to link current repo to the plugins' directory
-  ln -sfv "$CURRENT_DIR/../../../tmux-gruvbox" "${HOME}/.tmux/plugins/tmux-gruvbox"
+  ln -sfv "$CURRENT_DIR/../.." "${HOME}/.tmux/plugins/gruvbox-theme-tmux"
 
   helper_install_tpm_plugins
 
@@ -33,7 +33,7 @@ EOF
   tmux new -d
 
   # check if left side match
-  _status_left_expected="#[bg=#665c54,fg=#bdae93] #S #[bg=#3c3836,fg=#665c54,nobold,noitalics,nounderscore]"
+  _status_left_expected="#[bg=#4a5059,fg=#adafb0] #S #[bg=#242936,fg=#4a5059,nobold,noitalics,nounderscore]"
   _status_left_current=$(helper_tmux_get_statusleft)
   if [[ "$_status_left_current" != "$_status_left_expected" ]]; then
     helper_print_fail "status-left did not match" "$_status_left_current" "$_status_left_expected"
@@ -41,7 +41,7 @@ EOF
     exit 1
   fi
   # check if status is not transparent
-  _status_style_expected="bg=default,fg=#ebdbb2"
+  _status_style_expected="bg=default,fg=#cccac2"
   _status_style_current=$(helper_tmux_get_statusstyle)
   if [[ "$_status_style_current" != "$_status_style_expected" ]]; then
     helper_print_fail "status-style did not match" "$_status_style_current" "$_status_style_expected"
